@@ -1,10 +1,11 @@
 import { Navigation } from '@/components/navigation'
 import { Hero } from '@/components/hero'
 import { About } from '@/components/about'
-import { Experience } from '@/components/experience'
-import { Projects } from '@/components/projects'
+import { Highlights } from '@/components/highlights'
+import { ExperienceThemes } from '@/components/experience-themes'
+import { ProjectsExpanded } from '@/components/projects-expanded'
 import { Skills } from '@/components/skills'
-import { Achievements } from '@/components/achievements'
+import { AchievementsExpanded } from '@/components/achievements-expanded'
 import { Contact } from '@/components/contact'
 import { Footer } from '@/components/footer'
 
@@ -14,10 +15,11 @@ export default function Page() {
       <Navigation />
       <Hero />
       <About />
-      <Experience />
-      <Projects />
+      <Highlights />
+      <ExperienceThemes />
+      <ProjectsExpanded />
       <Skills />
-      <Achievements />
+      <AchievementsExpanded />
       <Contact />
       <Footer />
     </main>

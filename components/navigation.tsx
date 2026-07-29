@@ -67,17 +67,23 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            {['About', 'Experience', 'Projects', 'Skills', 'Achievements', 'Contact'].map(
-              (item) => (
-                <button
-                  key={item}
-                  onClick={() => scrollToSection(item.toLowerCase())}
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  {item}
-                </button>
-              )
-            )}
+            {[
+              { label: 'About', id: 'about' },
+              { label: 'Highlights', id: 'highlights' },
+              { label: 'Experience', id: 'experience-themes' },
+              { label: 'Projects', id: 'projects-detailed' },
+              { label: 'Skills', id: 'skills' },
+              { label: 'Achievements', id: 'achievements-expanded' },
+              { label: 'Contact', id: 'contact' },
+            ].map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {item.label}
+              </button>
+            ))}
           </div>
 
           {/* Theme Toggle */}

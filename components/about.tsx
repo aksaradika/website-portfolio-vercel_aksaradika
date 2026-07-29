@@ -14,43 +14,67 @@ export function About() {
         </div>
 
         {/* Content */}
-        <div className="prose prose-invert max-w-none">
-          <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-            <p>
-              I am a cybersecurity specialist currently serving as a Researcher & Bug Hunter at HackerOne, with a strong focus on Capture The Flag (CTF) challenges and Bug Bounty Programs (BBP). Recently graduated from SMK Telkom Malang, I have earned multiple recognitions in national-level CTF competitions.
-            </p>
+        <div className="space-y-8 text-lg text-muted-foreground leading-relaxed">
+          <p className="text-xl">
+            I am a cybersecurity researcher and innovator with expertise spanning competitive hacking, vulnerability research, artificial intelligence, and creative technology. Just graduated from SMK Telkom Malang, I&apos;ve earned multiple national recognitions in Capture The Flag competitions and hold a full scholarship (IDR 30 million) from the Cyber Defense Academy for advanced IAM training.
+          </p>
 
-            <p>
-              I received a full scholarship (worth IDR 30 million) to join the Cyber Defense Academy (CDA), mentored by international professionals from DIAAS.IN (India) through the SEAL program. My current focus is building hands-on skills in penetration testing and identity & access management.
-            </p>
-
-            <p>
-              Beyond technical security work, I&apos;m active as a Brand Ambassador for various educational institutions and organizations, both national and international, including Ruangguru, Indonesia Youth Action, Nexus3 Foundation, and Institut Teknologi Bandung (ITB). I serve as an AFS GSTEM Mentor and represent Indonesia as a delegate for BRICS 2026.
-            </p>
-
-            <p>
-              I&apos;m also skilled in graphic design, video production, and web development, bringing a creative dimension to my technical expertise.
-            </p>
+          <div className="space-y-4">
+            <h3 className="text-2xl font-semibold text-foreground">Core Focus Areas</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="p-4 bg-secondary border border-border rounded-lg">
+                <p className="font-semibold text-foreground mb-2">Cybersecurity & Research</p>
+                <p className="text-sm">
+                  Active HackerOne researcher, CTF competitor, penetration testing, identity & access management, vulnerability discovery
+                </p>
+              </div>
+              <div className="p-4 bg-secondary border border-border rounded-lg">
+                <p className="font-semibold text-foreground mb-2">AI & Innovation</p>
+                <p className="text-sm">
+                  AI automation (n8n), object detection (YOLOv8), startup development, green technology innovation
+                </p>
+              </div>
+              <div className="p-4 bg-secondary border border-border rounded-lg">
+                <p className="font-semibold text-foreground mb-2">Technology Development</p>
+                <p className="text-sm">
+                  Web development, iOS app development, multimedia design, video production, platform development
+                </p>
+              </div>
+              <div className="p-4 bg-secondary border border-border rounded-lg">
+                <p className="font-semibold text-foreground mb-2">Leadership & Education</p>
+                <p className="text-sm">
+                  Media management, educational programming, youth mentorship, international representation, brand building
+                </p>
+              </div>
+            </div>
           </div>
+
+          <p>
+            I received selection as one of 100 Indonesian youths for the AFS Global STEM Innovators Programme, where I developed AI automation systems. Currently serving as an AFS Global You Changemaker Mentor and official delegate representing Indonesia for BRICS 2026. I&apos;m also an Apple Developer Academy learner focused on iOS development.
+          </p>
+
+          <p>
+            Beyond individual technical excellence, I&apos;m actively building educational platforms and community engagement as General Manager of Metic Moklet, an integrated media and education initiative that achieved 20,000+ weekly social media views and produced 10+ professional videos while supporting 7+ events annually.
+          </p>
         </div>
 
         {/* Quick Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-8">
           <div className="p-6 bg-secondary rounded-lg border border-border text-center">
-            <div className="text-3xl font-bold text-primary mb-2">100+</div>
-            <div className="text-sm text-muted-foreground">Hours of CTF Training</div>
-          </div>
-          <div className="p-6 bg-secondary rounded-lg border border-border text-center">
-            <div className="text-3xl font-bold text-primary mb-2">6</div>
-            <div className="text-sm text-muted-foreground">CTF Placements</div>
-          </div>
-          <div className="p-6 bg-secondary rounded-lg border border-border text-center">
-            <div className="text-3xl font-bold text-primary mb-2">3+</div>
-            <div className="text-sm text-muted-foreground">Years in Cybersecurity</div>
-          </div>
-          <div className="p-6 bg-secondary rounded-lg border border-border text-center">
-            <div className="text-3xl font-bold text-primary mb-2">15+</div>
+            <div className="text-3xl font-bold text-primary mb-2">18+</div>
             <div className="text-sm text-muted-foreground">Professional Roles</div>
+          </div>
+          <div className="p-6 bg-secondary rounded-lg border border-border text-center">
+            <div className="text-3xl font-bold text-primary mb-2">12</div>
+            <div className="text-sm text-muted-foreground">Awards & Recognitions</div>
+          </div>
+          <div className="p-6 bg-secondary rounded-lg border border-border text-center">
+            <div className="text-3xl font-bold text-primary mb-2">5</div>
+            <div className="text-sm text-muted-foreground">International Programmes</div>
+          </div>
+          <div className="p-6 bg-secondary rounded-lg border border-border text-center">
+            <div className="text-3xl font-bold text-primary mb-2">30M IDR</div>
+            <div className="text-sm text-muted-foreground">Scholarship Awarded</div>
           </div>
         </div>
       </div>
